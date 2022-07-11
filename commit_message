@@ -1,0 +1,15 @@
+Commit message should always give clear description about the commit and it shoul be in a particular format.
+
+git commit -m "Person action. Description"
+
+Actions: 
+Add
+Update
+Refactor
+Fix
+Delete
+
+
+Eg:- git commit -m "Gunjan update. Filename abc.txt to xyz.txt"
+
+If a user see this commit after a long time, he can get a better understanding of this commit because of this commit message.
