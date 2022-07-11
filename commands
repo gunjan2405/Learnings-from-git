@@ -1,0 +1,98 @@
+1. init
+    git init
+    You can use git init to initialize a local Git repository.
+    
+2. config
+    git config --global user.name gunjan
+    git config --global user.email gunjan@gmail.com
+    Use git config to configure your personal information. 
+    
+3. add
+    git add file.txt
+    The git add command adds a change in the working directory to the staging area.
+    
+4. commit
+    git commit -m "commit message"
+    Use the git commit command to commit changes to the file to the cache
+    
+5. clone
+    git clone https://github.com/Gunjan/work
+    Use git clone to clone the remote repository by specifying a URL.
+    
+6. .gitignore
+    vim .gitignore
+    Use text editor to edit the.gitignore file. The.gitignore file records files that need to be ignored at commit time to avoid unnecessary files being committed to the remote repository.
+    
+7. status
+    git status
+    This is a very common command used to check the current status of git caches and workspaces.
+    
+8. rm
+    rm file.txt
+    rm removes each file specified on the command line. By default, it does not remove directories. 
+    
+9. stash
+    git stash
+    Git maintains a stack to keep track of temporary changes. When using a Git Stash file, the file will revert to the previous commit state. 
+    
+10. mv
+    git mv f1.txt f2.txt
+    mv command is used to rename files.
+    
+11. mkdir
+    mkdir src
+    mkdir command is used to create new directory or file.
+    
+12. log
+    git log
+    The git log command displays a record of the commits in a Git repository.
+    
+13. tag
+    git tag new_tag
+    Git tag tag_name Specifies the hash value of the current commit tag.
+    
+14. commit amend
+    git commit --amend
+    use git commit --amend to modify the current commit. 
+
+15.reset
+    git reset
+    use git reset to rewind history without changing the contents of your local files,
+    
+16. checkout
+    git checkout master
+    The git checkout command lets you navigate between the branches created by git branch.
+    
+17. remote
+    git remote
+    The git remote command allows accessing the connection between remote and local. 
+    
+18. pull
+    git pull origin master
+    Use the Git pull command to pull code from a remote repository.
+
+19. diff
+    git diff 
+    git diff lists out the changes between your current working directory and your staging area.
+    
+20. merge
+    git merge 
+    merge command is used to merge difeerent branches.
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
